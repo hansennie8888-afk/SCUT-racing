@@ -1,0 +1,27 @@
+# 数据集
+dataset/
+
+# 模型文件，只保留最后用的 best 模型
+models/*
+!models/model_best.pth
+pth/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Office 临时锁文件
+.~lock.*
+
+# IDE
+.vscode/
+.idea/
+
+# PPT 文件（过大）
+*.pptx
+
+# Conda 环境
+*.egg-info/
+
+# 本机环境脚本
+setup_dl_paths.sh
