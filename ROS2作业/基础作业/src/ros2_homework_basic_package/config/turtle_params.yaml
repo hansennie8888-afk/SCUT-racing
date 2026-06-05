@@ -1,0 +1,5 @@
+figure8_node:
+  ros__parameters:
+    linear_speed: 1.5
+    angular_speed: 1.0
+    timer_period: 0.05
